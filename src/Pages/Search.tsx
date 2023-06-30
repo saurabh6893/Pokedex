@@ -1,3 +1,4 @@
+import Wrapper from "../Sections/Wrapper"
 
 
 const Search = () => {
@@ -6,4 +7,4 @@ const Search = () => {
     )
 }
 
-export default Search
+export default Wrapper(Search)

@@ -1,3 +1,4 @@
+import Wrapper from "../Sections/Wrapper"
 
 const AboutMe = () => {
   return (
@@ -5,4 +6,4 @@ const AboutMe = () => {
   )
 }
 
-export default AboutMe
+export default Wrapper(AboutMe) 

@@ -1,3 +1,4 @@
+import Wrapper from "../Sections/Wrapper"
 
 const Pokemon = () => {
   return (
@@ -5,4 +6,4 @@ const Pokemon = () => {
   )
 }
 
-export default Pokemon
+export default Wrapper(Pokemon)

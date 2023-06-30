@@ -1,3 +1,4 @@
+import Wrapper from "../Sections/Wrapper"
 
 const MyList = () => {
   return (
@@ -5,4 +6,4 @@ const MyList = () => {
   )
 }
 
-export default MyList
+export default Wrapper(MyList)

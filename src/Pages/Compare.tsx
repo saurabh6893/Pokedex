@@ -1,3 +1,4 @@
+import Wrapper from "../Sections/Wrapper"
 
 const Compare = () => {
   return (
@@ -5,4 +6,4 @@ const Compare = () => {
   )
 }
 
-export default Compare
+export default Wrapper(Compare)
